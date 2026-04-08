@@ -128,7 +128,7 @@
 
             // قسم اللاعبين
             if(rows[1][22]) pl += `<div class="p-card fire-hero" onclick="openP('${rows[1][22]}', '${rows[1][23]}')"><i class="fas fa-fire"></i> <span>${rows[1][22]}</span></div>`;
-            for(let i=1; i<=10; i++) if(rows[i][24]) pl += `<div class="p-card" onclick="openP('${rows[i][24]}', '${rows[i][25]}')"><i class="fas fa-user-shield" style="color:var(--gold)"></i> <span>${rows[i][24]}</span></div>`;
+            for(let i=1; i<=12; i++) if(rows[i][24]) pl += `<div class="p-card" onclick="openP('${rows[i][24]}', '${rows[i][25]}')"><i class="fas fa-user-shield" style="color:var(--gold)"></i> <span>${rows[i][24]}</span></div>`;
             document.getElementById('players-list').innerHTML = pl;
 
             // المباريات
