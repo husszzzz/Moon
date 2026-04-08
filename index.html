@@ -118,7 +118,7 @@
 
             // الجوائز (البلندور + الهدافين + MOTM)
             let bl="", sl="", motm="", pl="";
-            for(let i=1; i<=3; i++) if(rows[i][11]) bl += `<div class="rank-item"><span><i class="fas fa-award" style="color:var(--gold)"></i> ${rows[i][11]}</span></div>`;
+            for(let i=1; i<=5; i++) if(rows[i][11]) bl += `<div class="rank-item"><span><i class="fas fa-award" style="color:var(--gold)"></i> ${rows[i][11]}</span></div>`;
             for(let i=1; i<=5; i++) if(rows[i][13]) sl += `<div class="rank-item"><span>${rows[i][13]}</span><b style="background:var(--gold); color:#000; padding:2px 8px; border-radius:5px;">${rows[i][14]} هدف</b></div>`;
             if(rows[1][16]) motm = `<div class="p-card" style="border:2px solid var(--gold); background:rgba(212,175,55,0.05); flex-direction: row;">🏅 <b>MOTM</b><br><span style="font-size:1.8rem; font-weight:900;">${rows[1][16]}</span></div>`;
             
