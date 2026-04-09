@@ -120,9 +120,7 @@
             let bl="", sl="", motm="", pl="";
             for(let i=1; i<=5; i++) if(rows[i][11]) bl += `<div class="rank-item"><span><i class="fas fa-award" style="color:var(--gold)"></i> ${rows[i][11]}</span></div>`;
             for(let i=1; i<=5; i++) if(rows[i][13]) sl += `<div class="rank-item"><span>${rows[i][13]}</span><b style="background:var(--gold); color:#000; padding:2px 8px; border-radius:5px;">${rows[i][14]} هدف</b></div>`;
-            if(rows[1][16]) motm = `<div class="p-card" style="position: relative; width: 220px; height: 310px; background: linear-gradient(135deg, #1a1a1a 0%, #000 100%); border: 1px solid #d4af37; border-radius: 12px; overflow: hidden; box-shadow: 0 0 25px rgba(212, 175, 55, 0.3); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; font-family: 'Cairo', sans-serif;">
-<div style="position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(circle, rgba(212, 175, 55, 0.15) 0%, transparent 70%); z-index: 1;"></div>
-<div style="position: relative; z-index: 2; border-bottom: 2px solid #d4af37; padding-bottom: 10px; margin-bottom: 15px; width: 80%; color: #d4af37; font-weight: bold; letter-spacing: 1px; text-transform: uppercase; font-size: 0.8rem;">Man of the Match</div>`;
+            if(rows[1][16]) motm = `<div class="p-card" style="position: relative; background: linear-gradient(145deg, #1a1a1a, #000); border: 2px solid #d4af37; border-radius: 15px; padding: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.9); color: white; text-align: center; min-width: 180px;"> <span style="display: block; font-size: 11px; color: #d4af37; font-weight: bold; margin-bottom: 8px;">MVP / رجل المباراة</span> <h3 style="margin: 0; font-size: 1.2rem; color: #fff; text-shadow: 0 0 10px rgba(212,175,55,0.5);">${rows[1][16]}</h3>`;
 
             document.getElementById('ballon-list').innerHTML = bl;
             document.getElementById('scorers-list').innerHTML = sl;
