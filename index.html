@@ -121,7 +121,6 @@ window.savedNews = newsUpdate;
             let teams = rows.slice(1).map(r => ({ n: r[0], p: r[1], s: parseInt(r[5]) || 0 })).filter(x => x.n && x.n !== "الفريق").sort((a,b) => b.s - a.s);
             teams.forEach((x, i) => { trs += `<tr><td>${i==0?'<i class="fas fa-crown crown"></i>':i+1}</td><td style="text-align:right">${x.n}</td><td>${x.p}</td><td style="color:var(--gold)">${x.s}</td></tr>`; });
             document.getElementById('league-table').innerHTML = trs;
-document.getElementById('players-list').innerHTML = pl;
 
             // الجوائز (البلندور + الهدافين + MOTM)
             let bl="", sl="", motm="", pl="";
@@ -171,16 +170,13 @@ motm += totwHtml;
             // قسم اللاعبين
             if(rows[1][22]) pl += `<div class="p-card fire-hero" onclick="openP('${rows[1][22]}', '${rows[1][23]}')"><i class="fas fa-fire"></i> <span>${rows[1][22]}</span></div>`;
             for(let i=1; i<=12; i++) if(rows[i][24]) pl += `<div class="p-card" onclick="openP('${rows[i][24]}', '${rows[i][25]}')"><i class="fas fa-user-shield" style="color:var(--gold)"></i> <span>${rows[i][24]}</span></div>`;
+            document.getElementById('players-list').innerHTML = pl;
 
             // المباريات
             let mx = ""; for(let i=1; i<=5; i++) if(rows[i][17]) mx += `<div class="ticket"><small style="color:var(--gold)">${rows[i][20]}</small><br><b>${rows[i][17]}  ${rows[i][18]}</b><br><small style="color:#777">${rows[i][19]}</small></div>`;
             document.getElementById('next-matches').innerHTML = mx;
         } catch(e) {}
     }
-    function showPlayersContent() {
-    document.getElementById('players-list').innerHTML = pl;
-}
-
     updateData(); setInterval(updateData, 20000);
 </script>
 </body>
