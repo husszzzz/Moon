@@ -121,6 +121,7 @@ window.savedNews = newsUpdate;
             let teams = rows.slice(1).map(r => ({ n: r[0], p: r[1], s: parseInt(r[5]) || 0 })).filter(x => x.n && x.n !== "الفريق").sort((a,b) => b.s - a.s);
             teams.forEach((x, i) => { trs += `<tr><td>${i==0?'<i class="fas fa-crown crown"></i>':i+1}</td><td style="text-align:right">${x.n}</td><td>${x.p}</td><td style="color:var(--gold)">${x.s}</td></tr>`; });
             document.getElementById('league-table').innerHTML = trs;
+document.getElementById('players-list').innerHTML = pl;
 
             // الجوائز (البلندور + الهدافين + MOTM)
             let bl="", sl="", motm="", pl="";
