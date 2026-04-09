@@ -176,6 +176,10 @@ motm += totwHtml;
             document.getElementById('next-matches').innerHTML = mx;
         } catch(e) {}
     }
+    function showPlayersContent() {
+    document.getElementById('players-list').innerHTML = pl;
+}
+
     updateData(); setInterval(updateData, 20000);
 </script>
 </body>
