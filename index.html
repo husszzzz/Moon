@@ -12,6 +12,15 @@
     0% { transform: scale(1); opacity: 1; }
     50% { transform: scale(1.05); opacity: 0.8; }
     100% { transform: scale(1); opacity: 1; }
+    #welcome-msg {
+    position: fixed; bottom: 20px; right: 20px; 
+    background: rgba(212,175,55,0.95); color: #000; 
+    padding: 15px 25px; border-radius: 30px; 
+    font-weight: bold; z-index: 9999; 
+    transform: translateY(100px); 
+    transition: 0.5s; font-family: 'Cairo', sans-serif;
+}
+
 }
 
         body { background-color: var(--bg); color: #fff; font-family: 'Cairo', sans-serif; margin: 0; overflow-x: hidden; }
@@ -53,7 +62,11 @@
         .hidden { display: none; }
     </style>
 </head>
+<div id="welcome-msg">🔥 أهلاً بك في موقع نتائج مبارياتنا!  تطوير حسين الحسني 
+.</div>
+
 <body>
+
 
 <div class="header">
     <div onclick="toggleMenu()" style="cursor:pointer; color:var(--gold); font-size:1.5rem;"><i class="fas fa-bars-staggered"></i></div>
@@ -209,6 +222,13 @@ setInterval(() => {
         }
     }
 }, 1000);
+// رسالة الترحيب
+setTimeout(() => {
+    document.getElementById('welcome-msg').style.transform = 'translateY(0)';
+    setTimeout(() => { 
+        document.getElementById('welcome-msg').style.transform = 'translateY(100px)'; 
+    }, 4000); // تختفي بعد 4 ثواني
+}, 1000); // تظهر بعد ثانية واحدة من فتح الموقع
 
 </script>
 </body>
