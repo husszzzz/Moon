@@ -12,13 +12,11 @@
     0% { transform: scale(1); opacity: 1; }
     50% { transform: scale(1.05); opacity: 0.8; }
     100% { transform: scale(1); opacity: 1; }
-.table-leader-row {
-    background: rgba(255, 215, 0, 0.2) !important;
-    border: 1px solid gold !important;
-    box-shadow: 0 0 15px gold !important;
-    transform: scale(1.02);
-}
-
+/* --- تأثير التوهج الملكي للمتصدر --- */
+@keyframes leader-glow {
+    0% { box-shadow: 0 0 5px rgba(255, 215, 0, 0.4); border-color: rgba(255, 215, 0, 0.4); }
+    50% { box-shadow: 0 0 25px rgba(255, 215, 0, 0.9), 0 0 35px rgba(255, 215, 0, 0.6); border-color: rgba(255, 215, 0, 1); }
+    100% { box-shadow: 0 0 5px rgba(255, 215, 0, 0.4); border-color: rgba(255, 215, 0, 0.4); }
 }
 
 .table-leader-row {
@@ -232,19 +230,30 @@ setInterval(() => {
         if (h === 0) {
             el.style.animation = "pulse 1s infinite";
         }
-    234 }, 1000);
-235 
-236 // أضف الكود هنا:
-237 const tableRows = document.querySelectorAll('#league-table tr');
-238 if (tableRows.length > 0) {
-239     tableRows.forEach(row => row.classList.remove('table-leader-row'));
-240     tableRows[0].classList.add('table-leader-row');
-241 }
-242
-243 </script>
-}
+    }
 }, 1000);
+// --- تفعيل تأثير المتصدر في الجدول ---
+function highlightLeader() {
+    // 1. إزالة التأثير القديم من أي فريق (في حال تغير المتصدر)
+    const currentLeader = document.querySelector('#league-table tr.table-leader-row');
+    if (currentLeader) {
+        currentLeader.classList.remove('table-leader-row');
+    }
+
+    // 2. تحديد الصف الأول الجديد وإضافة التأثير إليه
+    const rows = document.querySelectorAll('#league-table tr');
+    if (rows.length > 0) {
+        rows[0].classList.add('table-leader-row');
+    }
+}
+
+// ------------------------------------
+// تأكد من استدعاء highlightLeader() بعد أن يقوم كودك بعرض الجدول.
+// في نهاية دالة updateData() الخاصة بك، يجب أن يبدو الأمر هكذا:
+// ... (كودك لعرض الجدول)
+// highlightLeader(); // استدعاء دالة التوهج
+// }  <-- إغلاق دالة updateData()
+// ------------------------------------
 
 </script>
 </body>
-</html>
