@@ -52,7 +52,7 @@
 
 <div class="header">
     <div onclick="toggleMenu()" style="cursor:pointer; color:var(--gold); font-size:1.5rem;"><i class="fas fa-bars-staggered"></i></div>
-    <div class="logo-text">HUB HUSSAIN 365</div>
+    <div class="logo-text">HUB HUSSAIN 365</div><div id="countdown" style="font-size: 0.6rem; color: var(--gold);"></div>
     <div onclick="showPage('home')" style="color:var(--gold); cursor:pointer; font-size:1.4rem;"><i class="fas fa-house"></i></div>
 </div>
 
@@ -177,7 +177,9 @@ motm += totwHtml;
             document.getElementById('next-matches').innerHTML = mx;
         } catch(e) {}
     }
-    updateData(); setInterval(updateData, 20000);
+updateData(); setInterval(updateData, 20000);
+setInterval(() => { const d = new Date("Apr 14, 2026 16:00:00") - new Date(); document.getElementById("countdown").innerText = d < 0 ? "بدأت البطولة!" : Math.floor(d/86400000) + "ي " + Math.floor((d%86400000)/3600000) + "س " + Math.floor((d%3600000)/60000) + "د"; }, 1000);
+
 </script>
 </body>
 </html>
