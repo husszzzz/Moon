@@ -132,24 +132,7 @@
     function openP(n, i) { document.getElementById('mName').innerText = n; document.getElementById('mInfo').innerText = i; document.getElementById('pModal').style.display = 'flex'; }
 
     async function updateData() {
-        try {async function updateData() {
-    try {
-        // --- ضع هذا الكود هنا في أول الدالة ---
-        const r = await fetch(url);
-        const t = await r.text();
-        const rows = t.split('\n').map(row => row.split(',').map(c => c.replace(/"/g, '').trim()));
-        
-        // هنا يتم فحص الخلية K2 (اللي هي رقمها في المصفوفة [1][10])
-        const strongNews = rows[1][10]; 
-        if (strongNews && strongNews !== "undefined" && window.lastNews !== strongNews) {
-            document.getElementById('giant-news').innerText = strongNews;
-            document.getElementById('news-modal').style.display = 'flex';
-            window.lastNews = strongNews;
-        }
-        // -------------------------------------
-
-        // أكمل باقي كودك هنا...
-
+        try {
             const r = await fetch(url);
             const t = await r.text();
             const rows = t.split('\n').map(row => row.split(',').map(c => c.replace(/"/g, '').trim()));
@@ -271,10 +254,6 @@ function highlightLeader() {
 // highlightLeader(); // استدعاء دالة التوهج
 // }  <-- إغلاق دالة updateData()
 // ------------------------------------
-<div id="news-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.95); z-index:9999; justify-content:center; align-items:center; text-align:center; padding:20px; backdrop-filter:blur(20px);">
-    <h1 id="giant-news" style="color:var(--gold); font-size:4rem; line-height:1.2; text-shadow:0 0 20px #d4af37, 0 0 40px #ff0000; animation: pulse 1.5s infinite;"></h1>
-    <button onclick="document.getElementById('news-modal').style.display='none'" style="margin-top:30px; background:transparent; border:2px solid var(--gold); color:var(--gold); padding:10px 30px; border-radius:10px; cursor:pointer;">إغلاق</button>
-</div>
 
 </script>
 </body>
