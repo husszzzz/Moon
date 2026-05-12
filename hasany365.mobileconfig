@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>FullScreen</key>
+			<true/>
+			<key>Icon</key>
+			<data>
+            <?python
+            # ملاحظة للمبرمج: تم وضع كود الـ Base64 هنا
+            ?>
+            {USER_UPLOADED_BASE64_STRING}
+			</data>
+			<key>IsRemovable</key>
+			<true/>
+			<key>Label</key>
+			<string>hasany365</string>
+			<key>PayloadDescription</key>
+			<string>هذا الإجراء آمن جداً. فقط قم بالسماح والتثبيت وسوف يتم تثبيت تطبيق hasany365 بكل بساطة. نحن لا نطلب منك أي وصول إلى أي معلومات نحن هنا لمساعدتكم.</string>
+			<key>PayloadDisplayName</key>
+			<string>hasany365 Web App</string>
+			<key>PayloadIdentifier</key>
+			<string>com.hasany365.app.webclip</string>
+			<key>PayloadType</key>
+			<string>com.apple.webClip.managed</string>
+			<key>PayloadUUID</key>
+			<string>5F8E2D1A-C9B4-4A31-9E52-8D7F6E5A4B3C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>URL</key>
+			<string>https://husszzzz.github.io/Moon/#</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>المطور الرسمي والحاصل على حساب المطور في شركة Apple الرسمية: حسين الحسني @OM_G9</string>
+	<key>PayloadDisplayName</key>
+	<string>تثبيت تطبيق hasany365</string>
+	<key>PayloadIdentifier</key>
+	<string>com.hasany365.installer.profile</string>
+	<key>PayloadOrganization</key>
+	<string>حسين الحسني</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>9A8B7C6D-5E4F-4321-BD1C-0E9F8A7B6C5D</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
