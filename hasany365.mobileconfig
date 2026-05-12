@@ -12,11 +12,11 @@
 			<key>Label</key>
 			<string>hasany365</string>
 			<key>PayloadDescription</key>
-			<string>هذا الإجراء آمن جداً. فقط قم بالسماح والتثبيت وسوف يتم تثبيت تطبيق hasany365 بكل بساطة. نحن لا نطلب منك أي وصول إلى أي معلومات نحن هنا لمساعدتكم.</string>
+			<string>هذا الإجراء آمن جداً. فقط قم بالسماح والتثبيت وسوف يتم تثبيت التطبيق hasany365 بكل بساطة. ملاحظة مهمة: نحن لا نطلب منك أي وصول إلى أي معلومات، نحن هنا لمساعدتكم.</string>
 			<key>PayloadDisplayName</key>
 			<string>hasany365</string>
 			<key>PayloadIdentifier</key>
-			<string>com.hasany365.app</string>
+			<string>com.hasany365.app.webclip</string>
 			<key>PayloadType</key>
 			<string>com.apple.webClip.managed</string>
 			<key>PayloadUUID</key>
@@ -28,13 +28,15 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>المطور الرسمي: حسين الحسني @OM_G9</string>
+	<string>المطور الرسمي والحاصل على حساب المطور في شركة Apple الرسمية: حسين الحسني @OM_G9</string>
 	<key>PayloadDisplayName</key>
 	<string>تثبيت تطبيق hasany365</string>
 	<key>PayloadIdentifier</key>
 	<string>com.hasany365.profile</string>
 	<key>PayloadOrganization</key>
 	<string>حسين الحسني</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
