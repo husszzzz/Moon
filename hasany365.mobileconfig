@@ -7,43 +7,6 @@
 		<dict>
 			<key>FullScreen</key>
 			<true/>
-			<key>Icon</key>
-			<data>
-			/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
-			HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
-			MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAEAAQADASIA
-			AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
-			AAF9AQIDBAURBhAhQhNRY4FBFDKRoJHYdGHD5NDX8QYjKzRWhJSl4VDV1hGVlRfedNWV5uZmZmuC
-			h4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfiycrS09TV1tfY2drh4uPk
-			5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIB
-			AgQEAwQHBQQEAAECBA1ADRBhBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRol
-			JicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWW
-			lpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfiycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX2
-			9/j5+v/A13C26fHtUJAzQBC7bnHrVxHxEB6VSA/eDirUfMefSgCrK2ZRV5XAjHNUZRiTJqzFyo5o
-			Amf5lx3qowKtVtsKtV5CD0oAhLndU8TYTmqpOW4NWBwmMUAQu/zU9JQO9QNyzAU9YfXNAFmIhm
-			JqYsDHnNVVYp8uBTyxKYoAlWQbcVCH2vTgCExxUW07s0AWTLyBmpS4VeuKrqoZgadKMDigCxHMG
-			4p5cA1TjOD7VMTlTigCaWYY4piS9+KYi7jUyovSgBzSk8CmJI2/FPYBegpFALZoAnMqqvWmvKpX
-			g1C7DdigJxnNAB5pDDmpTKMZzVaVCVOM1FE7fX8aALW8bgc1OWG3OaqDcecVMDlcGgCRHyeOaim
-			fDdaVGwaV03c0AVXkIatIsdgqgU+fJq5C6t9KAHRZBNTqciiNAozTgMCgBaKKKAKVxG3nZwahdCO
-			xrRooAyghDDIq9EMpUtFAFG5TGCKmhzsGKmIDDkUlAAw3DFVnUoatUUAUpELGp4l+XmpKKAITFu
-			apREAuKfRQBVeIr0FSwghTuGampaAITLtbFI6bhkVNRQBTXKNyKmlIKcUTIWxiovKYA0AEbc1Z6
-			mq0SndzVoCgB0fWp6iUAGpaAIZid9R5xUjLls1E7YoAe0oUetV/O3ScU6KPdyaftVTxQBYXGzmm
-			NIFPX8qfHgjrULxnzOKAHLKD3qffkcVTMJVsjNSxsV4PNAExGe9QO+G44pZZSBxUCyBm5FAE7E7
-			asW5BGO9QY3DFSQqykZoAt0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
-			AFNf7pp1FAFaH75qyKaERSWAHNOoAKik6ipaCARgigCrGCHzUzPk9KbIdvSmK5z7UAThsDNRvOOn
-			vTXf5aqM7FjxQBMZtz8VLGdz81UizuFSiTbJxQBcMgB96rvIQcimbizHmp0QFc96AIkkY1bg4NM
-			jjI7VPGCDQBLRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
-			ABRRRQBHOuYzmqscfz5zVxgCMGoCmxuKAJGQeWaogHdV8fMtRhFB5H6UAMSMZzUpRSOBS5AHFAk
-			xQA9ECjNPGKiMmRxTo25xQBNRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
-			RQAUUUUAFFFFABRRRQAUUUUAB5GKhki96mooAqM+zipUIZMmkkgLtxUsSbFwaAGmPcOBSCEg8mp
-			6KAIWiP8NSKNo560+igAooooAKKKKACooooAKKKUAkgAZNABRRRQAUUUUAFFFFABRRRQAUUUUA
-			FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFW7KLc+8jg
-			VUrYto/LgUdzyaAJaKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
-			AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAHwxmWUL+dbSjCgelV7SDyk3Ecn9KtUA
-			FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
-			AUUUUAFFFFABRRRQAUUUUAFFFFBRRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
-			ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//Z
-			</data>
 			<key>IsRemovable</key>
 			<true/>
 			<key>Label</key>
@@ -51,13 +14,13 @@
 			<key>PayloadDescription</key>
 			<string>هذا الإجراء آمن جداً. فقط قم بالسماح والتثبيت وسوف يتم تثبيت تطبيق hasany365 بكل بساطة. نحن لا نطلب منك أي وصول إلى أي معلومات نحن هنا لمساعدتكم.</string>
 			<key>PayloadDisplayName</key>
-			<string>hasany365 Web App</string>
+			<string>hasany365</string>
 			<key>PayloadIdentifier</key>
-			<string>com.hasany365.app.webclip</string>
+			<string>com.hasany365.app</string>
 			<key>PayloadType</key>
 			<string>com.apple.webClip.managed</string>
 			<key>PayloadUUID</key>
-			<string>5F8E2D1A-C9B4-4A31-9E52-8D7F6E5A4B3C</string>
+			<string>A1B2C3D4-E5F6-47A8-9B0C-D1E2F3A4B5C6</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>URL</key>
@@ -65,19 +28,17 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>المطور الرسمي والحاصل على حساب المطور في شركة Apple الرسمية: حسين الحسني @OM_G9</string>
+	<string>المطور الرسمي: حسين الحسني @OM_G9</string>
 	<key>PayloadDisplayName</key>
 	<string>تثبيت تطبيق hasany365</string>
 	<key>PayloadIdentifier</key>
-	<string>com.hasany365.installer.profile</string>
+	<string>com.hasany365.profile</string>
 	<key>PayloadOrganization</key>
 	<string>حسين الحسني</string>
-	<key>PayloadRemovalDisallowed</key>
-	<false/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>9A8B7C6D-5E4F-4321-BD1C-0E9F8A7B6C5D</string>
+	<string>F1E2D3C4-B5A6-47B8-8C9D-0E1F2A3B4C5D</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
